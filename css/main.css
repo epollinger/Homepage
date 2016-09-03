@@ -109,7 +109,32 @@ body {
 	top:1px;
 }
 
+.infoBox {
+	width: 900px;
+	height: 800px;
+	clear:left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color:  #1A2930;
+	border-radius: 10px;
+}
 
+.infoBoxInner {
+	margin: 15px;
+	margin-top: 30px;
+}
+
+.infoBox h1 {
+	font-family: 'Concert One', cursive;
+	color: #F7CE3E;
+}
+
+.infoBox p {
+	font-family: 'Concert One', cursive;
+	color: #F7CE3E;
+}
 
 @media only screen and (max-width: 800px) {
 
