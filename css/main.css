@@ -49,8 +49,15 @@ body {
 	margin: 25px;
 }
 
+#menuOuter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #menu {
-	width: 1000px;
 	height: 30px;
 	margin-left:auto;
   	margin-right:auto;
@@ -60,8 +67,8 @@ body {
 
 #resume {
 	float: left;
-	margin-left:25px;
-	margin-top:85px;
+	margin-left:45px;
+	margin-top:90px;
 
 }
 
@@ -88,7 +95,7 @@ body {
 	display:inline-block;
 	cursor:pointer;
 	color:#0a1612;
-	font-family: 'Baloo Tamma', cursive;
+	font-family: 'Concert One', cursive;
 	font-size:20px;
 	padding:0px 28px;
 	text-decoration:none;
@@ -113,27 +120,45 @@ body {
 	width: 900px;
 	height: 800px;
 	clear:left;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 15px;
 	background-color:  #1A2930;
 	border-radius: 10px;
+	overflow-y: auto;
 }
 
-.infoBoxInner {
-	margin: 15px;
-	margin-top: 30px;
-}
 
 .infoBox h1 {
 	font-family: 'Concert One', cursive;
-	color: #F7CE3E;
+	color: #C5C1C0;
 }
 
 .infoBox p {
-	font-family: 'Concert One', cursive;
+	font-family: 'Open Sans', sans-serif;
 	color: #F7CE3E;
+}
+
+.infoBox h2 {
+	font-family: 'Concert One', cursive;
+	color: #C5C1C0;
+}
+
+.infoBox li {
+	font-family: 'Open Sans', sans-serif;
+	color: #F7CE3E;
+}
+
+.portfolioEntry {
+	clear: left;
+}
+
+.portfolioText {
+	float: right;
 }
 
 @media only screen and (max-width: 800px) {
