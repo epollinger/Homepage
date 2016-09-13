@@ -16,7 +16,7 @@
 	<div id="portrait_div">
 		<img id="portrait" src='images/portrait_small.jpg' alt="Portrait">
 	</div>
-	<div id = "name" class = "rest">
+	<div id = "name">
 		<h1>eric pollinger</h1>
 	</div>
 	<div id = "resume">
@@ -43,6 +43,7 @@
 	<p>
 		I am a Software Professional with a diverse background testing and building software to facilitate QA, control process, and enable interteam communication. This includes programming and scripting tools and solutions for Release, Operations, and Quality Control purposes, creating and following SDLC processes, coordinating quality and release management efforts, and managing local and offshore engineers.
 	</p>
+	<hr>
 	<h1>
 		What am I looking for in a role?
 	</h1>
@@ -55,7 +56,7 @@
 		Programming
 	</h2>
 	<ul>
-		<li>Javascript, JQuery</li>
+		<li>Javascript, JQuery, Frontend HTML/CSS</li>
 		<li>Python, Perl, .NET, ASP.NET</li>
 		<li>C, C++, Java</li>
 	</ul>
@@ -68,42 +69,116 @@
 		<li>OLAP</li>
 	</ul>
 	<h2>
+		Operating Systems
+	</h2>
+	<ul>
+		<li>Windows, Linux, Solaris</li>
+	</ul>
+	<h2>
 		Tools
 	</h2>
 	<ul>
-		<li>Jira</li>
+		<li>Jira, Silk, Selenium, IBM RFT, GIT, Visual Studio</li>
 	</ul>
 </div>
 <div id = "portfolio" class = "infoBox">
 	<h1>
-		Web Programming
+		Programming
+	</h1>
+	<hr>
+	<br>
+	<span class = "programEntry"><a href="https://www.youtube.com/watch?v=zrqBOuFAxlk">Python solution to Safe Cracker puzzle</a></span>
+	<h1>
+		Web Design
 	</h1>
 	<hr>
 	<br>
 	<div class="portfolioEntry">
-		<a href="http://www.pollinger.com/startup-landing-page-clone/index.html">
+		<div class = "portfolioIcon">
+			<a href="http://www.pollinger.com/Shopping-List/index.html">
+				<img class="item-image" src='images/shoppingList_lg.jpg' alt="Karma Landing Page"/>
+			</a>
+		</div>
+		<div class = "portfolioText">
+			<h2>Shopping List Application</h2>
+			<p>The Shopping List Appliction uses JQuery to manipulate DOM
+			objects and contol the contents of a shopping list without a 
+			backend database.</p>
+		</div>
+	</div>
+	<div class="portfolioEntry">
+		<div class = "portfolioIcon">
+			<a href="http://www.pollinger.com/startup-landing-page-clone/index.html">
 			<img class="item-image" src='images/karma_lg.jpg' alt="Karma Landing Page"/>
-		</a>
+			</a>
+		</div>
+		<div class = "portfolioText">
+			<h2>Karma Landing Page</h2>
+			<p>The Karma Landing page was an exercise in handling html design and item placement and alignment.</p>
+		</div>
 	</div>
-	<div class="portfolioText">
-		<h1>Karma Landing Page</h1>
-		<p>The Karma Landing page was an exercise in handling html design and item placement.</p>
-	</div>
-	<div>
-		<a href="http://www.pollinger.com/StreetFighter/main.html">
+	<div class="portfolioEntry">
+		<div class = "portfolioIcon">
+			<a href="http://www.pollinger.com/StreetFighter/main.html">
 			<img class="item-image" src='images/streetFighter_lg.jpg' alt="Karma Landing Page"/>
-		</a>
-		<h1>Street Fighter</h1>
+			</a>
+		</div>
+		<div class = "portfolioText">
+			<h2>Street Fighter</h2>
+			<p>This page's purpose was to work with JQuery to control
+			page dynamics via mouse input.</p>
+		</div>
 	</div>
-	<div>
-		<a href="http://www.pollinger.com/Shopping-List/index.html">
-			<img class="item-image" src='images/shoppingList_lg.jpg' alt="Karma Landing Page"/>
-		</a>
-		<h1>Shopping List Application</h1>
-	</div>
-
 </div>
-<br/>
+
+
+<div id = "experience" class = "infoBox">
+	<h2>Host Analytics Inc. <span>Principal QA Engineer (November 2015-June 2016)</span></h2>
+	<p>Responsible for many aspects of testing Host’s new Modeling product principally the testing of its Reporting, Backup/Restore, and Encryption functionality to include test planning, issue reporting and test execution.</p>
+	<hr>
+	<h2>Cornerstone OnDemand <span>Senior SQL QA Engineer (March 2015-October 2015)</span></h2>
+	<p>Six-month contract in a SQL Performance QA role using Python and other tools to build automation to test Cornerstone’s Real Time Data Warehouse with respect to both Performance and Data Integrity.</p>
+	<ul> 
+		<li>Created Python program to automate SQL View comparisons</li>
+	</ul>
+	<hr>
+	<h2>Advent Software Inc. <span>Release Manager / Software Engineer (May 2011-March 2015)</span></h2>
+	<p>Engineered new tools to enhance reporting capabilities and provide management with a set of metrics to better manage the development and release process. Supported and enhanced legacy MS SQL based build and merge management system. Reengineered an improved release process for Advent’s flagship product, Geneva, a high performance UNIX-based accounting and portfolio management application orchestrating 100+ releases per year including scheduling, process coordination, escalation resolution, reporting, and delivery.</p>
+	<ul> 
+		<li>Created data extraction utilities using REST, JSON and .NET to integrate Jira and Enterprise Tester to SQL for reporting purposes</li>
+		<li>Created ASP.NET website to facilitate internal gathering of data</li>
+		<li>Planned and implemented the conversion of a legacy bug tracking system to Jira and rolled out to 10+ additional teams. Authored requirements, coded the workflow, and created video training for new users</li>
+	</ul>
+
+	<h2>Advent Software Inc. <span>Lead QA Engineer / QA Manager (April 2006-May 2011)</span></h2>
+	<p>Led technical testing of Geneva product with ownership for final product quality with respect to the testing of utilities (loading, reporting), GUI/client, and non-accounting product internals including lockdowns and freezepoints. Managed 2 local QA engineers and coordinated an outsourced team in China in the creation and execution of test plans, the architecting and building of automated solutions, and the purchase of testing related tools. Championed process improvements. Drove hiring process and decisions - trained and mentored new hires.</p>
+	<ul> 
+		<li>Coordinated a 12+-person team in Beijing, China. Trained engineers and established processes to govern testing and communication with the US, represented team in meetings with US Development staff, and helped transform them into a valued and self-managed group that was integrated into Advent as an in-house division.</li>
+		<li>Devised a solution that enabled testing of ‘frozen accounting’ which combined testing of atomic cases with larger scale scripted testing and proved very effective in isolating problems. Automation built in Perl</li>
+		<li>Tested GUI interface of Trade Management addition to Geneva and created automation using IBM’s RFT</li>
+	</ul>
+	<hr>
+	<h2>Financial Engines, Inc. <span>Application Support Lead/Senior QA Engineer (1999-2006)</span></h2>
+	<p>Client-facing QA and Web Operations role for a financial advice and portfolio management platform. Diagnosed and solved problems while maintaining SLA guidelines via automation, monitoring tools, analysis and ad hoc queries. Collaborated with Development, Implementation, and Support groups on design reviews and product improvements. Designed and implemented internal applications to support Engineering and Customer Support. Advised on selection of and supported 3rd party applications (bug tracking, and event scheduling systems). Managed the implementation of major releases including resource allocation, scheduling, documentation, and contingency planning.</p>
+	<ul> 
+		<li>Central escalation point within Web Operations Group for all failures or updates to the product line related to 3rd party data connectivity, security, and system/network issues</li>
+		<li>Pioneered the testing of the first XML partner connections, ensuring encrypted connections for clients</li>
+		<li>Partnered with Configuration Management team on PHP based build management system and to introduce new Defect and Ticket tracking system. Created a system to track security certificate/key expiration information.</li>
+		<li>Developed and maintained a wide range of process, security, and design documents, authored detailed requirements documentation for new support and quality tools.</li>
+	</ul>
+	<hr>
+	<h2>Impresse Inc. <span>Senior QA Engineer (Febuary - April 1999)</span></h2>
+	<p>Using Java and its Reflection API created a command line interface to Impresse’s print shop automation product to facilitate automated testing.</p>
+	<hr>
+	<h2>Hyperion Solutions, Inc.<span>Senior Tech. Support Engineer/Lead QA Engineer (1995-1999)</span></h2>
+	<p>Recruited into Technical Support and served as account lead for many high profile customers supporting the complex features of their OLAP product, Essbase. Lead support for C API support issues and co-created 1 week support training program which was sold to third parties. Moved into QA and was later promoted to QA Lead performing test planning, automation, and test execution on Essbase Calculator features. Mentored and trained new QA engineers on automation framework and QA processes. Liaison to Technical Support and the field on all quality issues.</p>
+	<ul>
+		<li>Lead support for C API support issues</li>
+		<li>Co-created 1 week support training program which was sold to third parties</li>
+		<li>Delivered technical presentations to 200+ at annual user conference regarding Calculator performance</li>
+	</ul>
+</div>
+
 <div id="footer"><a href="https://icons8.com">Icon packs by Icons8</a></div>
 	
 </body>

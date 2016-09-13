@@ -38,7 +38,7 @@ body {
 	height:150px; 
 	float: left;
 	margin-left: 50px;
-	display: none;
+	display:inline-block;
 }
 
 #name h1 {
@@ -153,12 +153,82 @@ body {
 	color: #F7CE3E;
 }
 
+.programEntry a {
+	font-family: 'Open Sans', sans-serif;
+	color: #F7CE3E;
+}
+
 .portfolioEntry {
+	display: flex;
+	clear: right;
+	height: 125px;
+	width: 850px;
+	position:relative;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.portfolioIcon {
+	margin-right: 20px;
 	clear: left;
+	height: 125px;
+	width: 125px;
+	display:inline-block;
+}
+
+.item-image {
+	height:125px;
+	width:125px;
 }
 
 .portfolioText {
+	display:inline-block;
+	height: 125px;
+	width: 650px;
+	clear:right;
 	float: right;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#experience h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #C5C1C0;
+	font-size: 2em;
+	margin: 0 0 6px 0; 
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#experience h2 span {
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	font-style: italic; 
+	color: #C5C1C0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px; 
+	font-weight: normal;
+}
+#experience p {
+	margin-left: 30px;
+	margin-right: 30px;	
+}
+
+#experience li {
+	margin-left: 30px;
+	margin-right: 30px;	
+}
+
+#footer {
+	width:100%;
+	clear:both;
+	text-align: center;
 }
 
 @media only screen and (max-width: 800px) {

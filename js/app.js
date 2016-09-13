@@ -35,7 +35,6 @@ $(document).ready(function(){
   		clearScreen();
   		$('#other').show();
   	});
-
 });
 
 function clearScreen(){
