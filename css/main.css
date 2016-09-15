@@ -1,14 +1,14 @@
 /* Colors 
-	#C5C1C0 Screen
-	#0A1612 Steel
-	#1A2930 Denim
-	#F7CE3E Marigold
+	#30231d
+	#6a5750
+	#f6f1ed
+	#b5a397
 */
 html {
   box-sizing: border-box;
 }
 body {
-	background-color: #C5C1C0;
+	background-color: #30231d;
 }
 
 #header	{
@@ -30,7 +30,7 @@ body {
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    border-color:#0A1612;
+    border-color:#f6f1ed;
     display: none;
 }
 
@@ -42,8 +42,8 @@ body {
 }
 
 #name h1 {
-    font-family: 'Concert One', cursive;
-    color:#0A1612;
+    font-family: 'Arya', sans-serif;
+    color:#f6f1ed;
     font-size: 4em;
 	text-align: center;
 	margin: 25px;
@@ -84,38 +84,38 @@ body {
 }
 
 .myButton {
-	-moz-box-shadow: 6px 11px 14px -7px #0a1612;
-	-webkit-box-shadow: 6px 11px 14px -7px #0a1612;
+	-moz-box-shadow: 6px 11px 14px -7px #f6f1ed;
+	-webkit-box-shadow: 6px 11px 14px -7px #f6f1ed;
 	box-shadow: 6px 11px 14px -7px #0a1612;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7cf3e), color-stop(1, #9c811f));
-	background:-moz-linear-gradient(top, #f7cf3e 5%, #9c811f 100%);
-	background:-webkit-linear-gradient(top, #f7cf3e 5%, #9c811f 100%);
-	background:-o-linear-gradient(top, #f7cf3e 5%, #9c811f 100%);
-	background:-ms-linear-gradient(top, #f7cf3e 5%, #9c811f 100%);
-	background:linear-gradient(to bottom, #f7cf3e 5%, #9c811f 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7cf3e', endColorstr='#9c811f',GradientType=0);
-	background-color:#f7cf3e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b5a397), color-stop(1, #6a5750));
+	background:-moz-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:-webkit-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:-o-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:-ms-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:linear-gradient(to bottom, #b5a397 5%, #6a5750 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5a397', endColorstr='#6a5750',GradientType=0);
+	background-color:#b5a397;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 	border-radius:6px;
 	display:inline-block;
 	cursor:pointer;
 	color:#0a1612;
-	font-family: 'Concert One', cursive;
+	font-family: 'Neuton', serif;
 	font-size:20px;
 	padding:0px 28px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #0a1612;
 }
 .myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9c811f), color-stop(1, #f7cf3e));
-	background:-moz-linear-gradient(top, #9c811f 5%, #f7cf3e 100%);
-	background:-webkit-linear-gradient(top, #9c811f 5%, #f7cf3e 100%);
-	background:-o-linear-gradient(top, #9c811f 5%, #f7cf3e 100%);
-	background:-ms-linear-gradient(top, #9c811f 5%, #f7cf3e 100%);
-	background:linear-gradient(to bottom, #9c811f 5%, #f7cf3e 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c811f', endColorstr='#f7cf3e',GradientType=0);
-	background-color:#9c811f;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b5a397), color-stop(1, #6a5750));
+	background:-moz-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:-webkit-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:-o-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:-ms-linear-gradient(top, #b5a397 5%, #6a5750 100%);
+	background:linear-gradient(to bottom, #b5a397 5%, #6a5750 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5a397', endColorstr='#6a5750',GradientType=0);
+	background-color:#b5a397;
 }
 .myButton:active {
 	position:relative;
@@ -133,35 +133,35 @@ body {
 	margin-left: auto;
 	margin-top: 25px;
 	margin-bottom: 15px;
-	background-color:  #1A2930;
+	background-color:  #f6f1ed;
 	border-radius: 10px;
 	overflow-y: auto;
 }
 
 
 .infoBox h1 {
-	font-family: 'Concert One', cursive;
-	color: #C5C1C0;
+	font-family: 'Neuton', serif;
+	color: #6a5750;
 }
 
 .infoBox p {
-	font-family: 'Open Sans', sans-serif;
-	color: #F7CE3E;
+	font-family: 'Neuton', serif;
+	color: #30231d;
 }
 
 .infoBox h2 {
-	font-family: 'Concert One', cursive;
-	color: #C5C1C0;
+	font-family: 'Neuton', serif;
+	color: #6a5750;
 }
 
 .infoBox li {
-	font-family: 'Open Sans', sans-serif;
-	color: #F7CE3E;
+	font-family: 'Neuton', serif;
+	color: #30231d;
 }
 
 .programEntry a {
-	font-family: 'Open Sans', sans-serif;
-	color: #F7CE3E;
+	font-family: 'Neuton', serif;
+	color: #30231d;
 }
 
 .portfolioEntry {
@@ -202,8 +202,8 @@ body {
 }
 
 #experience h2 {
-	font-family: 'Open Sans', sans-serif;
-	color: #C5C1C0;
+	font-family: 'Neuton', serif;
+	color: #6a5750;
 	font-size: 2em;
 	margin: 0 0 6px 0; 
 	position: relative;
@@ -216,8 +216,8 @@ body {
 	bottom: 0; 
 	right: 0; 
 	font-style: italic; 
-	color: #C5C1C0;
-	font-family: 'Open Sans', sans-serif;
+	color: #6a5750;
+	font-family: 'Neuton', serif;
 	font-size: 16px; 
 	font-weight: normal;
 }
@@ -233,8 +233,8 @@ body {
 
 #education h2 {
 	margin-bottom: 0px;
-	font-family: 'Open Sans', sans-serif;
-	color: #C5C1C0;
+	font-family: 'Neuton', serif;
+	color: #6a5750;
 	font-size: 2em; 
 	position: relative;
 	margin-left: 30px;
@@ -247,8 +247,8 @@ body {
 	bottom: 0; 
 	right: 0; 
 	font-style: italic; 
-	color: #C5C1C0;
-	font-family: 'Open Sans', sans-serif;
+	color: #6a5750;
+	font-family: 'Neuton', serif;
 	font-size: 16px; 
 	font-weight: normal;
 }
@@ -261,8 +261,8 @@ body {
 
 #education h3 {
 	margin-bottom: 0px;
-	font-family: 'Open Sans', sans-serif;
-	color: #C5C1C0;
+	font-family: 'Neuton', serif;
+	color: #6a5750;
 	font-size: 1.5em; 
 	position: relative;
 	margin-left: 30px;
@@ -270,8 +270,8 @@ body {
 }
 
 #education li a {
-	font-family: 'Open Sans', sans-serif;
-	color: #F7CE3E;
+	font-family: 'Neuton', serif;
+	color: #30231d;
 }
 
 #education a {
