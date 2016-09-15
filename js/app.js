@@ -43,5 +43,4 @@ function clearScreen(){
 	$('#portfolio').hide();
 	$('#experience').hide();
 	$('#education').hide();
-	$('#other').hide();
 }

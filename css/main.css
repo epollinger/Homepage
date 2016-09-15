@@ -69,7 +69,13 @@ body {
 	float: left;
 	margin-left:45px;
 	margin-top:90px;
+}
 
+#icon {
+    padding: 0;
+    margin: 0;
+    border-radius: 1.25rem;
+    color: #3f729b;
 }
 
 #resumetooltiptext {
@@ -282,5 +288,11 @@ body {
 @media only screen and (max-height: 1200px) {
 .infoBox {
 		height: 750px;
+	}
+}
+
+@media only screen and (max-height: 1000px) {
+.infoBox {
+		height: 600px;
 	}
 }
